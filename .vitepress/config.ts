@@ -27,8 +27,7 @@ export default defineConfig({
     
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'GitHub', link: 'https://github.com/teknicus/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Get in touch', link: 'https://github.com/teknicus/' }
     ],
 
     sidebar: [
@@ -42,7 +41,8 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/teknicus/thomasrob.in-v2' },
+      { icon: 'linkedin', link: 'https://www.linkedin.com/in/teknicus/' },
     ]
   }
 })

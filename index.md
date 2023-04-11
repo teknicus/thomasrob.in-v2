@@ -10,7 +10,7 @@ hero:
   text: "Software Product Consultant"
   tagline: Design, Develop, Deploy
   image:
-    src: /circle-dp.png
+    src: /img/circle-dp.webp
     # src: https://tunn.thomasrob.in/public-hosted/circle-dp-blur.png
     alt: Robin Biju Thomas - Profile Picture
   actions:
@@ -22,30 +22,30 @@ hero:
       link: /api-examples
 
 features:
-  - title: Learn 
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit 
-    link: /guide/what-is-vitepress
-    linkText: View Skills
+  - title: Self-Hosted 
+    details: "This website is brought to you from my Home-Server* in 📍 Bangalore, India. Check out what else I have running" 
+    link: /projects/appledore
+    linkText: View Project
     # icon: 📖
-  - title: Make
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: /guide/what-is-vitepress
-    linkText: View Projects
+  - title: About Me
+    details: From ideation to implementation and deployment, I strive to cover all facets of the life cycle of a product. 
+    link: /about-me
+    linkText: Learn More
     # icon: 🛠️
 
-  - title: Share
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: /guide/what-is-vitepress
-    linkText: Get in touch
-    # icon: 🤝
+  # - title: Share
+  #   details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  #   link: /guide/what-is-vitepress
+  #   linkText: Get in touch
+  #   # icon: 🤝
 ---
-<div class="info-banner">
+<!-- <div class="info-banner">
 
 ::: tip Brought to you by _Appledore_
 My Self-Hosted Home-Server in 📍 Bangalore, India 
 :::
 
-</div>
+</div> -->
 
 <!-- <div class="vp-doc" >
   <h2 id="meet-the-team"> Meet The Team </h2>
@@ -62,19 +62,4 @@ My Self-Hosted Home-Server in 📍 Bangalore, India
     margin-right: 4rem;
   }
 
-  .vp-doc {
-    align-items: center;
-    flex-direction: column;
-    display: flex;
-    margin: 1.5rem;
-  }
-
-  .vp-doc h2 {
-    margin: 48px 0 16px;
-    border-top: 1px solid var(--vp-c-divider-light);
-    padding-top: 24px;
-    letter-spacing: -.02em;
-    line-height: 32px;
-    font-size: 24px;
-}
 </style>
