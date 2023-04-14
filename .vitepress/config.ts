@@ -11,6 +11,7 @@ export default defineConfig({
   title: "Robin Biju Thomas",
   titleTemplate: "Robin Biju Thomas",
   description: "Software Product Consultant",
+  cleanUrls: true,
   head: [
     // ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],
     ['meta', { property: 'og:type', content: 'website' }],
