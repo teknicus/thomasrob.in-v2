@@ -28,7 +28,7 @@ export default defineConfig({
     
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Get in touch', link: 'https://github.com/teknicus/' }
+      { text: 'Get in touch', link: '/connect' }
     ],
 
     sidebar: [
