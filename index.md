@@ -7,7 +7,7 @@ titleTemplate: "e-Space"
 
 hero:
   name: "Robin Biju Thomas"
-  text: "Software Product Consultant"
+  text: "Solutions Architect"
   tagline: Design, Develop, Deploy
   image:
     src: /img/circle-dp.webp
@@ -16,6 +16,9 @@ hero:
     - theme: brand
       text: View Portfolio
       link: /e-space
+    - theme: alt
+      text: Resume
+      link: /resume
     - theme: alt
       text: Get in touch
       link: /connect

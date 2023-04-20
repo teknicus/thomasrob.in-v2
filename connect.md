@@ -1,17 +1,41 @@
 ---
-layout: page
-sidebar: false 
+# https://vitepress.dev/reference/default-theme-home-page
+layout: home
+title: "Robin Biju Thomas"
+titleTemplate: "e-Space"
+
+hero:
+  name: "Get In Touch"
+
+features:
+  - title: Schedule a Call 
+    icon:
+        src: /img/icons/calendar.svg 
+    link: /calendly
+
+  - title: LinkedIn 
+    icon:
+        src: /img/icons/linkedin.svg 
+    link: https://www.linkedin.com/in/teknicus/
+
+  - title: GitHub 
+    icon:
+        src: /img/icons/github.svg  
+    link: https://github.com/teknicus/
+
+  - title: YouTube 
+    icon:
+        src: /img/icons/youtube.svg  
+    link: https://www.youtube.com/@jumpstarts
+
+  - title: E-mail 
+    icon:
+        src: /img/icons/email.svg
+    link: "mailto:me@thomasrob.in"
+
+  - title: Twitter 
+    icon:
+        src: /img/icons/twitter.svg  
+    link: https://twitter.com/_teknicus
 ---
 
-<div 
-        class="calendly-inline-widget" 
-        data-url="https://calendly.com/thomasrob-in/quick-connect?hide_gdpr_banner=1&background_color=1e1e20&primary_color=10b981&text_color=ffffff" 
-        style="min-width:90vw;height:90vh;"
-    >
-</div>
-
-
-<script setup>
-import { useScriptTag } from '@vueuse/core'
-useScriptTag('https://assets.calendly.com/assets/external/widget.js')
-</script>

@@ -21,6 +21,7 @@ export default defineConfig({
     ['meta', { property: 'og:description', content: ogDescription }],
     ['meta', { name: 'twitter:site', content: '@_teknicus' }],
     ['meta', { name: 'theme-color', content: '#10b981' }],
+    // ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=2' }],
     
   ],
   themeConfig: {
