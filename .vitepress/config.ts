@@ -38,24 +38,24 @@ export default defineConfig({
         items: [
           {
             text: '$whoami',
-            link: '/whoami'
+            link: '/about/whoami'
           },
           {
             text: 'Projects',
-            link: '/projects/'
+            link: '/about/projects/'
           },
           {
             text: 'Services',
-            link: '/services'
+            link: '/about/services'
           },
           {
             text: 'Pricing',
-            link: '/pricing'
+            link: '/about/pricing'
           },
         ]
       },
       { text: 'Blog', link: '/blog/' },
-      { text: 'Get in touch', link: '/connect' }
+      { text: 'Get in touch', link: '/social/connect' }
     ],
 
     sidebar: [
