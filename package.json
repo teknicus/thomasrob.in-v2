@@ -5,10 +5,8 @@
     "preview": "vitepress preview"
   },
   "devDependencies": {
-    "vitepress": "^1.0.0-alpha.65"
+    "vitepress": "^1.0.0-alpha.73"
   },
   "dependencies": {
-    "element-plus": "^2.3.3",
-    "unplugin-element-plus": "^0.7.1"
   }
 }
