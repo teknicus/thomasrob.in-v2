@@ -12,7 +12,7 @@ features:
   - title: Schedule a Call 
     icon:
         src: /img/icons/alt/calendar.svg 
-    link: /calendly
+    link: /social/calendly
 
   - title: LinkedIn 
     icon:

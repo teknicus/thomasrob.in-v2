@@ -1,27 +1,20 @@
-# Hello from $whoami 
+---
+layout: doc
+title: "Robin Biju Thomas"
+titleTemplate: "About Me"
+sidebar: false
+prev: false
+next: false
+---
+# `$whoami` 
 
-## UML diagrams
 
-You can render UML diagrams using [Mermaid](https://mermaidjs.github.io/). For example, this will produce a sequence diagram:
+> "I have no special talent. I am only passionately curious."  
+ _- Albert Einstein_  
 
-```mermaid
-sequenceDiagram
-Alice ->> Bob: Hello Bob, how are you?
-Bob-->>John: How about you John?
-Bob--x Alice: I am good thanks!
-Bob-x John: I am good thanks!
-Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
+At the risk of sounding too philosophical, I am but a passionately curious engineer by heart and soul. In pursuit of this curiosity, I have been exposed to a wide range of domains, platforms and technologies. As any driven engineer can relate, We are problem solvers. I enjoy applying myself to find simple solutions to complex problems while trying to stay outcome driven.
 
-Bob-->Alice: Checking with John...
-Alice->John: Yes... John, how are you?
-```
+### Background
 
-And this will produce a flow chart:
 
-```mermaid
-graph LR
-A[Square Rect] -- Link text --> B((Circle))
-A --> C(Round Rect)
-B --> D{Rhombus}
-C --> D
-```
+

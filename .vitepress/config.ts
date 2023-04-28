@@ -20,7 +20,36 @@ export default defineConfig({
     ['meta', { property: 'og:description', content: ogDescription }],
     ['meta', { name: 'twitter:site', content: '@_teknicus' }],
     ['meta', { name: 'theme-color', content: '#10b981' }],
-
+    [
+      'script',
+      {
+        async: true,
+        defer: true,
+      },
+      `
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "gvgifiblvg");
+      `
+    ],
+    [
+      'script',
+      {
+        async: true,
+        defer: true,
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-QLTWS4HWDQ',
+      },
+    ],
+    [
+      'script',
+      {
+        async: true,
+        defer: true,
+      },
+      "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-QLTWS4HWDQ');",
+    ],
   ],
   themeConfig: {
     logo: '/img/logo.svg',
@@ -28,7 +57,7 @@ export default defineConfig({
     outline: 'deep',
     darkModeSwitchLabel: 'Toggle Dark Mode',
     footer: {
-      message: '* In the unlikely event that <a href="/projects/appledore"><b><i><u>Appledore</u></i></b></a> is offline, the traffic gets routed to a Linode instance to ensure availability.',
+      message: '* In the unlikely event that <a href="/about/projects/appledore"><b><i><u>Appledore</u></i></b></a> is offline, the traffic gets routed to a Linode instance to ensure availability.',
       copyright: 'Copyright © 2023-present Robin Biju Thomas'
     },
     nav: [
@@ -76,5 +105,6 @@ export default defineConfig({
     search: {
       provider: 'local'
     }
-  }
+  },
+
 })

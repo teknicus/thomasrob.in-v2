@@ -5,8 +5,11 @@
     "preview": "vitepress preview"
   },
   "devDependencies": {
+    "sitemap": "^7.1.1",
+    "sitemap-ts": "^1.2.2",
     "vitepress": "^1.0.0-alpha.73"
   },
   "dependencies": {
+    "@vueuse/core": "^10.1.0"
   }
 }

@@ -43,13 +43,16 @@ features:
 ---
 
 <div class="flex-container">
+  <!-- <a class="flex-item" href="/social/quick-links">
+    <button class="custom-button">Quick Links</button>
+  </a> -->
   <div class="flex-item">
-    <button class="custom-button" onclick=" window.open('/social/quick-links','_blank')">Quick Links</button>
+    <a class="custom-button" href="/social/quick-links">Quick Links</a>
   </div>
 </div>
 
 <style>
-.flex-container{
+/* .flex-container{
   display: flex;
   justify-content: center;
 }
@@ -81,5 +84,5 @@ features:
 
 .VPHome {
     padding-bottom: 12px!important;
-  }
+  } */
 </style>
