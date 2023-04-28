@@ -9,52 +9,62 @@ hero:
 
 features:
   - title: Schedule a Call 
+    details: "Schedule a Quick Call with calendly"
     icon:
         src: /img/icons/alt/calendar.svg 
     link: /calendly
 
   - title: Schedule a Call 
+    details: "Schedule a Quick Call with calendly"
     icon:
         src: /img/icons/alt/calendar.svg 
     link: /calendly
 
   - title: Schedule a Call 
+    details: "Schedule a Quick Call with calendly"
     icon:
         src: /img/icons/alt/calendar.svg 
     link: /calendly
 
   - title: Schedule a Call 
+    details: "Schedule a Quick Call with calendly"
     icon:
         src: /img/icons/alt/calendar.svg 
     link: /calendly
 
   - title: Schedule a Call 
+    details: "Schedule a Quick Call with calendly"
     icon:
         src: /img/icons/alt/calendar.svg 
     link: /calendly
 
   - title: Schedule a Call 
+    details: "Schedule a Quick Call with calendly"
+    icon:
+        src: /img/icons/alt/calendar.svg 
+    link: /calendly
+ 
+  - title: Schedule a Call 
+    details: "Schedule a Quick Call with calendly"
     icon:
         src: /img/icons/alt/calendar.svg 
     link: /calendly
 
   - title: Schedule a Call 
+    details: "Schedule a Quick Call with calendly"
     icon:
         src: /img/icons/alt/calendar.svg 
     link: /calendly
 
   - title: Schedule a Call 
+    details: "Schedule a Quick Call with calendly"
     icon:
         src: /img/icons/alt/calendar.svg 
     link: /calendly
-
-  - title: Schedule a Call 
-    icon:
-        src: /img/icons/alt/calendar.svg 
-    link: /calendly
-
-
-
   
 ---
+
+<script setup>
+  import '/.vitepress/theme/css/custom-feature.css'
+</script>
 

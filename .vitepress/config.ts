@@ -1,9 +1,16 @@
 import { defineConfig } from 'vitepress'
 
+import { createWriteStream } from "node:fs";
+import { resolve } from "node:path";
+import { SitemapStream } from "sitemap";
+
+const links: any[] = [];
+const baseUrl = `https://thomasrob.in`;
+
 const ogDescription = 'Consulting Solutions Architect working on Cloud Computing, IoT, NodeJS, Microservices'
 const ogImage = 'https://vitepress.thomasrob.in/circle-dp.png'
 const ogTitle = 'Robin Biju Thomas | Solutions Architect'
-const ogUrl = 'https://thomasrob.in'
+const ogUrl = baseUrl
 
 export default defineConfig({
   lang: 'en-US',
@@ -106,5 +113,23 @@ export default defineConfig({
       provider: 'local'
     }
   },
-
+  transformHtml: (_, id, { pageData }) => {
+    if (!/[\\/]404\.html$/.test(id))
+      links.push({
+        // requires cleanURL mode
+        url: pageData.relativePath.replace(/((^|\/)index)?\.md$/, "$2"),
+        lastmod: pageData.lastUpdated
+      });
+  },
+  buildEnd: (config) => {
+    const sitemap = new SitemapStream({
+      hostname: baseUrl
+    });
+    const writeStream = createWriteStream(
+      resolve(config.outDir, "sitemap.xml")
+    );
+    sitemap.pipe(writeStream);
+    links.forEach((link) => sitemap.write(link));
+    sitemap.end();
+  }
 })
