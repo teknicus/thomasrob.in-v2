@@ -8,7 +8,7 @@ const links: any[] = [];
 const baseUrl = `https://thomasrob.in`;
 
 const ogDescription = 'Consulting Solutions Architect working on Cloud Computing, IoT, NodeJS, Microservices'
-const ogImage = 'https://vitepress.thomasrob.in/circle-dp.png'
+const ogImage = 'https://thomasrob.in/circle-dp.png'
 const ogTitle = 'Robin Biju Thomas | Solutions Architect'
 const ogUrl = baseUrl
 
@@ -27,20 +27,20 @@ export default defineConfig({
     ['meta', { property: 'og:description', content: ogDescription }],
     ['meta', { name: 'twitter:site', content: '@_teknicus' }],
     ['meta', { name: 'theme-color', content: '#10b981' }],
-    [
-      'script',
-      {
-        async: true,
-        defer: true,
-      },
-      `
-      (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-      })(window, document, "clarity", "script", "gvgifiblvg");
-      `
-    ],
+    // [
+    //   'script',
+    //   {
+    //     async: true,
+    //     defer: true,
+    //   },
+    //   `
+    //   (function(c,l,a,r,i,t,y){
+    //     c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+    //     t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+    //     y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    //   })(window, document, "clarity", "script", "gvgifiblvg");
+    //   `
+    // ],
     [
       'script',
       {
@@ -102,7 +102,7 @@ export default defineConfig({
 
       },
       { text: 'Blog', link: '/blog/' },
-      { text: 'Get in touch', link: '/connect' }
+      { text: 'Get in touch', link: '/social/connect' }
     ],
 
     socialLinks: [

@@ -12,55 +12,55 @@ features:
     details: "Schedule a Quick Call with calendly"
     icon:
         src: /img/icons/alt/calendar.svg 
-    link: /calendly
+    link: /social/calendly
 
   - title: Schedule a Call 
     details: "Schedule a Quick Call with calendly"
     icon:
         src: /img/icons/alt/calendar.svg 
-    link: /calendly
+    link: /social/calendly
 
   - title: Schedule a Call 
     details: "Schedule a Quick Call with calendly"
     icon:
         src: /img/icons/alt/calendar.svg 
-    link: /calendly
+    link: /social/calendly
 
   - title: Schedule a Call 
     details: "Schedule a Quick Call with calendly"
     icon:
         src: /img/icons/alt/calendar.svg 
-    link: /calendly
+    link: /social/calendly
 
   - title: Schedule a Call 
     details: "Schedule a Quick Call with calendly"
     icon:
         src: /img/icons/alt/calendar.svg 
-    link: /calendly
+    link: /social/calendly
 
   - title: Schedule a Call 
     details: "Schedule a Quick Call with calendly"
     icon:
         src: /img/icons/alt/calendar.svg 
-    link: /calendly
+    link: /social/calendly
  
   - title: Schedule a Call 
     details: "Schedule a Quick Call with calendly"
     icon:
         src: /img/icons/alt/calendar.svg 
-    link: /calendly
+    link: /social/calendly
 
   - title: Schedule a Call 
     details: "Schedule a Quick Call with calendly"
     icon:
         src: /img/icons/alt/calendar.svg 
-    link: /calendly
+    link: /social/calendly
 
   - title: Schedule a Call 
     details: "Schedule a Quick Call with calendly"
     icon:
         src: /img/icons/alt/calendar.svg 
-    link: /calendly
+    link: /social/calendly
   
 ---
 
