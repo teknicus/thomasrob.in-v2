@@ -20,31 +20,6 @@ At the risk of sounding too philosophical, I am but a passionately curious engin
   </div>
 </div>
 
-### What is this website? 
-At the risk of sounding too philosophical, I am but a passionately curious engineer by heart and soul. In pursuit of this curiosity, I have been exposed to a wide range of domains, platforms and technologies. As any driven engineer can relate, We are problem solvers. I enjoy applying myself to find simple solutions to complex problems while trying to stay outcome driven.
-<div class="flex-container">
-  <div class="flex-item">
-    <VPNavBarSearch />
-  </div>
-</div>
-
-##### Highlights
-
-- one
-- two
-- three
-
-### My Background
-
-At the risk of sounding too philosophical, I am but a passionately curious engineer by heart and soul. In pursuit of this curiosity, I have been exposed to a wide range of domains, platforms and technologies. As any driven engineer can relate, We are problem solvers. I enjoy applying myself to find simple solutions to complex problems while trying to stay outcome driven.
-
-##### Timeline 
-  
-  
-
-- one
-- two
-- three
 <script setup>
 
     import VPNavBarSearch from 'vitepress/dist/client/theme-default/components/VPNavBarSearch.vue'

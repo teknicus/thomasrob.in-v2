@@ -41,18 +41,20 @@ export default defineConfig({
     //   })(window, document, "clarity", "script", "gvgifiblvg");
     //   `
     // ],
+    ['link', { rel: 'preload', as: 'script', href: 'https://www.googletagmanager.com/gtag/js?id=G-QLTWS4HWDQ' }],
+
+    // [
+    //   'script',
+    //   {
+    //     // async: true,
+    //     defer: true,
+    //     src: 'https://www.googletagmanager.com/gtag/js?id=G-QLTWS4HWDQ',
+    //   },
+    // ],
     [
       'script',
       {
-        async: true,
-        defer: true,
-        src: 'https://www.googletagmanager.com/gtag/js?id=G-QLTWS4HWDQ',
-      },
-    ],
-    [
-      'script',
-      {
-        async: true,
+        // async: true,
         defer: true,
       },
       "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-QLTWS4HWDQ');",
