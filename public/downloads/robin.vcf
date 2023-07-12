@@ -1,0 +1,17 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Thomas;Robin;Biju;;
+FN:Robin Biju Thomas
+ORG:
+TITLE:Software Architect
+TEL;TYPE=WORK:+919995554710
+TEL;TYPE=HOME:
+TEL;TYPE=CELL:
+EMAIL;TYPE=WORK:me@thomasrob.in
+EMAIL;TYPE=HOME:
+URL:https://ThomasRob.in
+ADR;TYPE=WORK:;;City: Bangalore;State: Karnataka;;Country: India
+ADR;TYPE=HOME:;;City: ;State: ;;;Country: 
+BDAY:;
+NOTE:
+END:VCARD

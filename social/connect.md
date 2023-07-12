@@ -27,7 +27,7 @@ features:
   - title: YouTube 
     icon:
         src: /img/icons/alt/youtube.svg  
-    link: https://www.youtube.com/@jumpstarts
+    link: https://www.youtube.com/@thomasrob-in
 
   - title: E-mail 
     icon:

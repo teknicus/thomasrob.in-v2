@@ -7,8 +7,15 @@ import { SitemapStream } from "sitemap";
 const links: any[] = [];
 const baseUrl = `https://thomasrob.in`;
 
+/*
+<meta property='og:title' content='Title of the article'/>
+<meta property='og:image' content='//media.example.com/ 1234567.jpg'/>
+<meta property='og:description' content='Description that will show in the preview'/>
+<meta property='og:url' content='//www.example.com/URL of the article'/>
+*/
+
 const ogDescription = 'Consulting Solutions Architect working on Cloud Computing, IoT, NodeJS, Microservices'
-const ogImage = 'https://thomasrob.in/circle-dp.png'
+const ogImage = 'https://thomasrob.in/img/circle-dp.webp'
 const ogTitle = 'Robin Biju Thomas | Solutions Architect'
 const ogUrl = baseUrl
 
@@ -20,12 +27,20 @@ export default defineConfig({
   cleanUrls: true,
   head: [
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/img/icons/site-icon.svg' }],
+
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:title', content: ogTitle }],
     ['meta', { property: 'og:image', content: ogImage }],
     ['meta', { property: 'og:url', content: ogUrl }],
     ['meta', { property: 'og:description', content: ogDescription }],
+
     ['meta', { name: 'twitter:site', content: '@_teknicus' }],
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { name: 'twitter:url', content: ogUrl }],
+    ['meta', { name: 'twitter:title', content: ogTitle }],
+    ['meta', { name: 'twitter:description', content: ogDescription }],
+    ['meta', { name: 'twitter:image', content: ogImage }],
+
     ['meta', { name: 'theme-color', content: '#10b981' }],
     // [
     //   'script',
@@ -97,10 +112,10 @@ export default defineConfig({
     ],
 
     sidebar: [
-      { text: 'Projects', link: '/projects/' },
+      { text: 'Projects', link: '/about/projects/' },
       {
         text: 'Services',
-        link: '/services/',
+        link: '/about/services/',
 
       },
       { text: 'Blog', link: '/blog/' },
